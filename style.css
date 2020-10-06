@@ -1,0 +1,61 @@
+/*
+Colores
+dorado #b39965
+hover #dfb86b
+gris #f4f4f4
+gris textos #60647c
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: black;
+}
+.bg-dorado {
+    background-color: #b39965;
+    color: white;
+    transition: all 1s;
+}
+.bg-dorado:hover {
+    background-color: #dfb86b;
+    color: white;
+ 
+}
+.bg-light {
+    background-color: #f4f4f4 !important;
+}
+.mi-banner {
+    background-image: url("../img/fondo_cupon.jpg");
+	background-attachment: fixed;
+}
+#pie{
+    background-color: black;
+    padding: 3% 4%;
+}
+.som{
+    color: white;
+    font-size: 1.5em;
+    padding: 0 5px 0 5px;
+}
+.som:hover{
+    color: #b39965;
+}
+#ofertas, #suscripcion h3{
+    color: #60647c;
+}
+#ofertas, #suscripcion{
+    padding: 9% 6%;
+}
+#cupon h5{
+    font-size: 2em;
+}
+#suscripcion p{
+    font-size: 0.9em;
+}
+
+.formulario input { padding:5px}
+.formulario {margin-bottom: 20px;}
+.error { color:red}
+
+.btn-i {color: white; font-size: 3em;}
