@@ -1,61 +1,44 @@
-/*
-Colores
-dorado #b39965
-hover #dfb86b
-gris #f4f4f4
-gris textos #60647c
-*/
+header {font-family: montserrat-alternates, sans-serif;
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-h1 {
-    color: black;
-}
-.bg-dorado {
-    background-color: #b39965;
-    color: white;
-    transition: all 1s;
-}
-.bg-dorado:hover {
-    background-color: #dfb86b;
-    color: white;
- 
-}
-.bg-light {
-    background-color: #f4f4f4 !important;
-}
-.mi-banner {
-    background-image: url("../img/fondo_cupon.jpg");
-	background-attachment: fixed;
-}
-#pie{
-    background-color: black;
-    padding: 3% 4%;
-}
-.som{
-    color: white;
-    font-size: 1.5em;
-    padding: 0 5px 0 5px;
-}
-.som:hover{
-    color: #b39965;
-}
-#ofertas, #suscripcion h3{
-    color: #60647c;
-}
-#ofertas, #suscripcion{
-    padding: 9% 6%;
-}
-#cupon h5{
-    font-size: 2em;
-}
-#suscripcion p{
-    font-size: 0.9em;
-}
+    font-weight: 900;
+    
+    font-style: italic;}
 
-.formulario input { padding:5px}
-.formulario {margin-bottom: 20px;}
-.error { color:red}
+main {font-family: montserrat-alternates, sans-serif;
 
-.btn-i {color: white; font-size: 3em;}
+    font-weight: 900;
+    
+    font-style: italic;}
+
+.albumes {font-family: aglet-slab, sans-serif;
+
+    font-weight: 500;
+    
+    font-style: normal;}
+
+.historia {font-family: ff-dax-pro-wide, sans-serif;
+
+    font-weight: 900;
+    
+    font-style: italic;}
+
+
+
+.fondo {background-color: #000; width: auto; height: auto; padding-top: 2%;}
+.color {color: #fff;}
+.color1 {color: #000; background-color: #fff; opacity: 80%; width: 5.2em; padding: 1px;}
+.color2 {color: #000; background-color: #fff; opacity: 80%; width: 53.5em; padding: 3px;}
+.color3 {color: #000; background-color: #fff; opacity: 80%; width: 28em; padding: 3px;}
+
+
+.fondo-jumbotron {background-image: url(../img/fondo1.jpg); 
+    min-height: 500px; background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.icono { font-size: 2em; color:#fff}
+
+.imagen-logo {width: 8em;}
+
+.jumbotron {margin-bottom: 0%;}
